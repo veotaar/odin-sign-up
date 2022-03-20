@@ -10,6 +10,7 @@
       href="https://fonts.googleapis.com/css2?family=Rubik:ital,wght@0,300;0,400;0,700;1,400&display=swap"
       rel="stylesheet"
     />
+    <script src="./index.js" defer></script>
     <link rel="stylesheet" href="style.css" />
     <title>Odin Sign-Up</title>
   </head>
@@ -20,6 +21,8 @@
           <img src="img/odin.png" alt="odin" class="logo" />
           <span class="logo-text">ODIN</span>
         </div>
+        <p class="credit">Photo by <a href="https://unsplash.com/@mischievous_penguins?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Casey Horner</a> on <a href="https://unsplash.com/s/photos/space?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Unsplash</a></p>
+
       </div>
 
       <main class="main">
@@ -57,7 +60,7 @@
               <div>
                 <label for="password">Password</label>
                 <input type="password" name="password" id="password" />
-                <span></span>
+                <span class="error">&nbsp;</span>
               </div>
               <div>
                 <label for="confirm-password">Confirm Password</label>
@@ -71,12 +74,14 @@
             </section>
 
             <button type="submit" class="btn">Create Account</button>
-            <p class="log-in-text">Already have an account? <a href="#">Log in</a></p>
+            <p class="log-in-text">
+              Already have an account? <a href="#">Log in</a>
+            </p>
           </form>
         </section>
       </main>
 
-      <!-- Photo by <a href="https://unsplash.com/@mischievous_penguins?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Casey Horner</a> on <a href="https://unsplash.com/s/photos/space?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Unsplash</a> -->
+      <!--  -->
     </div>
   </body>
 </html>
